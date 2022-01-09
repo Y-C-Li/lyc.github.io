@@ -46,7 +46,7 @@ When comes to generate a new post, come to ==_posts== file, and build a new mark
 
 A recommended Front Matter Defaults seem like:
 
-```html
+```css
 defaults:
   # _posts
   - scope:
@@ -73,7 +73,7 @@ defaults:
 
 According to the [reference website](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/), the _sass file have a structure as:
 
-```html
+```css
 minimal-mistakes
 ├── _sass
 |  └── minimal-mistakes
@@ -121,13 +121,14 @@ $caption-font-family: Georgia;
 
 Change the content in "==XXX-font-family==", then you can change the font here.
 
-```python
-return gulp
-```
-
-
-
 #### Manage the Tags
 
-#### Push Your Post to Github
+#### Push Your Post to GitHub
+
+```bash
+git pull
+git add .
+git commit -m "submit your comment"
+git push origin master
+```
 
