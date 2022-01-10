@@ -13,7 +13,8 @@ Content:
 1. Build A New Blog
 2. Start A New Post
 3. Watch Out the Font
-5. Push Your Post to Github
+5. Push Your Post to GitHub
+5. The Use of Chinese Language
 
 
 
@@ -63,12 +64,6 @@ defaults:
 
 
 ### Watch Out the Font
-
-##### The Use of Chinese Language
-
-
-
-##### Change the Font of Webpage
 
 According to the [reference website](https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/), the _sass file have a structure as:
 
@@ -129,3 +124,8 @@ git commit -m "submit your comment"
 git push origin master
 ```
 
+
+
+### The Use of Chinese Language
+
+See this [page](https://y-c-li.github.io/lyc.github.io/jekyll/Try-a-Chinese-Post/).
