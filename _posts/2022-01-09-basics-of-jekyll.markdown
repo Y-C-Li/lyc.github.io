@@ -2,7 +2,7 @@
 layout: single
 title:  "Basics of starting your Jekyll Blog"
 date:   2022-01-09 10:12:48 +0800
-categories: jekyll update
+categories: jekyll
 ---
 Preface: This blog contains basic codes to maintain a Jekyll Blog :)
 
@@ -13,12 +13,11 @@ Content:
 1. Build A New Blog
 2. Start A New Post
 3. Watch Out the Font
-4. Manage the Tags
 5. Push Your Post to Github
 
 
 
-#### Build A New Blog
+### Build A New Blog
 
 - Build A New Blog 
 
@@ -40,9 +39,9 @@ Content:
 
 
 
-#### Start A New Post
+### Start A New Post
 
-When comes to generate a new post, come to ==_posts== file, and build a new markdown file. Note that the name of markdown files should be "==yy-mm-dd-filename.markdown==" format.
+When comes to generate a new post, come to ==_posts== file, and build a new markdown file. Note that the name of markdown files should be `yy-mm-dd-filename.markdown` format.
 
 A recommended Front Matter Defaults seem like:
 
@@ -63,7 +62,7 @@ defaults:
 
 
 
-#### Watch Out the Font
+### Watch Out the Font
 
 ##### The Use of Chinese Language
 
@@ -103,7 +102,7 @@ minimal-mistakes
 |  |  └── main.scss            # main stylesheet, loads SCSS partials in _sass
 ```
 
-What you need to do is to open the file ==_variables.scss==, and then locate the codes here:
+What you need to do is to open the file `_variables.scss`, and then locate the codes here:
 
 ```html
 /* serif typefaces */
@@ -119,11 +118,9 @@ $caption-font-family: Georgia;
 
 ```
 
-Change the content in "==XXX-font-family==", then you can change the font here.
+Change the content in `XXX-font-family`, then you can change the font here.
 
-#### Manage the Tags
-
-#### Push Your Post to GitHub
+### Push Your Post to GitHub
 
 ```bash
 git pull
