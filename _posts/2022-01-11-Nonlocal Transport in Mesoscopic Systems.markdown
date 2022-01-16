@@ -13,9 +13,14 @@ For example, when two conductors are connected in parallel as below.
 ![image-center](/assets/images_posts/1-11-2021-Nonlocal Transport\1641873501016.png){: .align-center}
 
 The sum of the conductance has a equation as:
-$$
-G = G_1 + G_2
-$$
+
+
+
+$$G = G_1 + G_2$$
+
+
+
+
 But from a quantum view, things do not work like this. Electrons are waves, modulated by both conductors. In other words, a single electron can go both conductors. So:
 
 1. We need to sum up the amplitudes of each electron passing through each individual conductor.
