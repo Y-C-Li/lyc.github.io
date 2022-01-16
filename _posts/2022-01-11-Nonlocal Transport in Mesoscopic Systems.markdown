@@ -10,7 +10,7 @@ In a semi-classical model, namely the Boltzmann transport theory, we deal with p
 
 For example, when two conductors are connected in parallel as below.
 
-![1641873501016](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1641873501016.png)
+[图片pic1]({{"\assets\images_posts\1-11-2021-Nonlocal Transport\1641873501016.png"| absolute_url }})
 
 The sum of the conductance has a equation as:
 $$
