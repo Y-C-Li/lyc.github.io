@@ -1,0 +1,90 @@
+---
+layout: single
+title:  "Jade 9.0 - XRD data analysis"
+date:   2022-01-10 10:12:48 +0800
+categories: Condensed-Matter-Physics software
+---
+利用Jade 9.0 分析Powder XRD 数据
+
+软件：Jade 9.0
+
+数据库：FindIt, PDF-4 2009, PFD-2
+
+Jade 9.0 搭配PDF-4 2009数据库，Jade 6.0 搭配PDF-2 （但是不如Jade 9.0 & PDF-4 的全）
+
+下载：https://pan.baidu.com/s/164Q67Uvb-wvIcDcPVgr4Aw?_at_=1641988453059#list/path=%2Fsharelink2756360611-570330541730246%2FXRD&parentPath=%2Fsharelink2756360611-570330541730246
+
+
+
+成分分析：
+
+1. 将PDF数据库导入Jade 9.0
+2. 导入.raw源文件
+3. 成分搜寻
+4. 定量拟合
+
+#### 将PDF数据库导入Jade 9.0:
+
+PDF-索引-在对话框中全选-蓝色箭头-Exit (约5-10min)
+
+#### 导入.raw源文件
+
+直接从文件选项中打开
+
+#### 成分搜寻
+
+点击下面的图标
+
+![1642233304558](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233304558.png)
+
+开始搜寻
+
+可以在弹出的对话框中看到各种可能的物相如图：
+
+![1642233399719](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233399719.png)
+
+对于多物相分析，除了产物对应的峰，选择图标
+
+![1642233489890](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233489890.png)
+
+对于源数据中非产物对应的峰进行填充，然后重复上述步骤，即可看到除产物之外对应的其他峰
+
+然后重复点击
+
+![1642233304558](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233304558.png)
+
+直到完成所有的物相分析
+
+#### 定量拟合
+
+在成分搜寻的基础上
+
+1.扣背底
+
+![1642233929002](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233929002.png)
+
+2.进行平滑
+
+![1642233902174](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233902174.png)
+
+注意，进行平滑的次数越少越好
+
+3.进行定量拟合
+
+![1642233988279](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233988279.png)
+
+根据所搜寻到的组分的峰进行权重拟合。
+
+![1642234421485](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642234421485.png)
+
+选择一段明显的峰有利于提高拟合结果。
+
+拟合结果中R = 10%左右可以接受，本实验数据精度不高。
+
+接下来根据数据质量可以在``选项-简易定量计算-质量分数``中简单计算各成分的质量分数。但是数据库中BAB的标准卡缺少信息，无法进行定量计算
+
+
+
+
+
+分析: 晶胞进行精修，需要在POWDER XRD实验中进行较慢的步进速度，即$1^{\circ}/min$ 。接下来可以尝试较慢的XRD扫描速度，并利用软件Rietica进行精修，确定样品中两种Ag原子的占据比例。
