@@ -15,6 +15,7 @@ Content:
 3. Watch Out the Font
 5. Push Your Post to GitHub
 5. The Use of Chinese Language
+6. <u>Warnings</u>
 
 
 
@@ -129,3 +130,7 @@ git push origin master
 ### The Use of Chinese Language
 
 See this [page](https://y-c-li.github.io/lyc.github.io/jekyll/Try-a-Chinese-Post/).
+
+### Warnings:
+
+1.2022-3-31: Do not check your website with Flash On!

@@ -12,9 +12,11 @@ categories: Condensed-Matter-Physics software
 
 Jade 9.0 搭配PDF-4 2009数据库，Jade 6.0 搭配PDF-2 （但是不如Jade 9.0 & PDF-4 的全）
 
-下载：https://pan.baidu.com/s/164Q67Uvb-wvIcDcPVgr4Aw?_at_=1641988453059#list/path=%2Fsharelink2756360611-570330541730246%2FXRD&parentPath=%2Fsharelink2756360611-570330541730246
-
-
+<div align = "center">
+    <a href="https://pan.baidu.com/s/164Q67Uvb-wvIcDcPVgr4Aw?_at_=1641988453059#list/path=%2Fsharelink2756360611-570330541730246%2FXRD&parentPath=%2Fsharelink2756360611-570330541730246">
+        点击资源下载
+    </a>
+</div>
 
 成分分析：
 
@@ -35,23 +37,33 @@ PDF-索引-在对话框中全选-蓝色箭头-Exit (约5-10min)
 
 点击下面的图标
 
-![1642233304558](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233304558.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/2.png" alt="">
+</div>
 
 开始搜寻
 
 可以在弹出的对话框中看到各种可能的物相如图：
 
-![1642233399719](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233399719.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/7.png" alt="">
+</div>
 
 对于多物相分析，除了产物对应的峰，选择图标
 
-![1642233489890](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233489890.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/1.png" alt="">
+</div>
+
+​    
 
 对于源数据中非产物对应的峰进行填充，然后重复上述步骤，即可看到除产物之外对应的其他峰
 
 然后重复点击
 
-![1642233304558](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233304558.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/2.png" alt="">
+</div>
 
 直到完成所有的物相分析
 
@@ -61,21 +73,29 @@ PDF-索引-在对话框中全选-蓝色箭头-Exit (约5-10min)
 
 1.扣背底
 
-![1642233929002](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233929002.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/3.png" alt="">
+</div>
 
 2.进行平滑
 
-![1642233902174](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233902174.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/4.png" alt="">
+</div>
 
 注意，进行平滑的次数越少越好
 
 3.进行定量拟合
 
-![1642233988279](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642233988279.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/5.png" alt="">
+</div>
 
 根据所搜寻到的组分的峰进行权重拟合。
 
-![1642234421485](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\1642234421485.png)
+<div align='center'>
+    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/6.png" alt="">
+</div>
 
 选择一段明显的峰有利于提高拟合结果。
 
