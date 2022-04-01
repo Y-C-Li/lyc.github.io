@@ -38,22 +38,25 @@ PDF-索引-在对话框中全选-蓝色箭头-Exit (约5-10min)
 点击下面的图标
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/2.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/2.png" alt="">
 </div>
+
 
 开始搜寻
 
 可以在弹出的对话框中看到各种可能的物相如图：
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/7.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/7.png" alt="">
 </div>
+
 
 对于多物相分析，除了产物对应的峰，选择图标
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/1.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/1.png" alt="">
 </div>
+
 
 ​    
 
@@ -62,8 +65,9 @@ PDF-索引-在对话框中全选-蓝色箭头-Exit (约5-10min)
 然后重复点击
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/2.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/2.png" alt="">
 </div>
+
 
 直到完成所有的物相分析
 
@@ -74,28 +78,31 @@ PDF-索引-在对话框中全选-蓝色箭头-Exit (约5-10min)
 1.扣背底
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/3.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/3.png" alt="">
 </div>
 
 2.进行平滑
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/4.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/4.png" alt="">
 </div>
+
 
 注意，进行平滑的次数越少越好
 
 3.进行定量拟合
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/5.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/5.png" alt="">
 </div>
+
 
 根据所搜寻到的组分的峰进行权重拟合。
 
 <div align='center'>
-    <img src="/assets/images/2022-01-13-Jade 9.0 to access XRD data/6.png" alt="">
+    <img src="/assets/images/2022-01-13-Jade-9.0-to-access-XRD-data/6.png" alt="">
 </div>
+
 
 选择一段明显的峰有利于提高拟合结果。
 
